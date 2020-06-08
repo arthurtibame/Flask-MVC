@@ -87,7 +87,7 @@ C:\python\web> set FLASKER_SETTINGS=C:\python\web\app\setting.py
 ### 在model 目錄下創建 User.py, Category.py
 ### 1) User.py:
 ```python
-from blog2 import db
+from app import db
 
 class User(db.Model):
     __tablename__ = 'b_user'
@@ -103,7 +103,7 @@ class User(db.Model):
 ```
 ### 2) Category.py
 ```python
-from blog2 import db
+from app import db
 
 class Category(db.Model):
     __tablename__ = 'b_category'
@@ -247,11 +247,11 @@ h2              { font-size: 1.2em; }
 ### 在controller 目錄下新增 blog_message.py
 blog_message.py
 ```python
-from blog2.model.User import  User
-from blog2.model.Category import Category
+from app.model.User import  User
+from app.model.Category import Category
 import os
 
-from blog2 import app,db
+from app import app,db
 from flask import request,render_template,flash,abort,url_for,redirect,session,Flask,g
 
 @app.route('/')
@@ -299,7 +299,7 @@ def logout():
 ```
 ## 最後在app目錄下的__init__.py 導入model
 ```python
-from blog2.controller import blog_manage
+from app.controller import blog_manage
 ```
 ### 所以最終我們的__init__.py 如下
 ```python
