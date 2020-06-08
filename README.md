@@ -127,7 +127,7 @@ Type "help", "copyright", "credits" or "license" for more nformation.
 >>> db.create_all()
 >>>
 ```
-這邊會發現在目錄 app 下會新增myweb.sqlite 檔案 但是裡面包含剛剛設立的table (b_user, b_category)
+這邊會發現在目錄 app 下會新增myweb.sqlite 檔案 但是裡面不包含剛剛設立的table (b_user, b_category)
 
 所以這邊要修改app目錄下的 __init__.py
 ```python
