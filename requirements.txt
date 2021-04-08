@@ -44,7 +44,7 @@ dcard-spider==0.3.0
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.0
-Django==3.0.5
+Django==3.0.14
 docutils==0.16
 emoji==0.5.4
 entrypoints==0.3
