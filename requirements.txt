@@ -220,7 +220,7 @@ schedule==0.6.0
 scikit-image==0.16.2
 scikit-learn==0.22.2.post1
 scipy==1.4.1
-Scrapy==2.1.0
+Scrapy==2.6.0
 seaborn==0.10.0
 selenium==3.141.0
 Send2Trash==1.5.0
