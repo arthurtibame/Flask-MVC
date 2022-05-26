@@ -237,7 +237,7 @@ telepot==12.7
 tensorboard==1.15.0
 tensorflow-cpu-estimator==1.15.1
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-gpu==2.7.2
 tensorflow-gpu-estimator==2.1.0
 tensorflow-object-detection-api==0.1.1
 termcolor==1.1.0
